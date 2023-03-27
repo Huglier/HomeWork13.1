@@ -19,13 +19,5 @@ public class Main {
         System.out.println("book2.name = " + book2.getName());
         System.out.println("book2.author = " + book2.getAuthor());
         System.out.println("book2.year = " + book2.getYear());
-
-        System.out.println(book.hashCode());
-        System.out.println(book1.hashCode());
-        System.out.println(book.hashCode());
-
-        Book c = new Book("Headless horseman", man, 1865);
-        Book c2 = c;
-        System.out.println(c.equals(c2));
     }
 }
